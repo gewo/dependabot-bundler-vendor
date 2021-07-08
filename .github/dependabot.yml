@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: "bundler"
+  vendor: true
+  directory: "/"
+  schedule:
+    interval: daily
+
+- package-ecosystem: "bundler"
+  vendor: true
+  directory: "/acceptance"
+  schedule:
+    interval: daily
